@@ -1,0 +1,26 @@
+
+kthSpecialNumber
+
+Một số được coi là đặc biệt nếu thỏa mãn các điều kiện sau:
+Là một số nguyên lớn hơn 0.
+Chỉ chứa các chữ số nằm trong mảng arr.
+Ví dụ, nếu arr = [1,2] thì các số đặc biệt là 1,2,11, 12, 21, 22, ...
+Bạn hãy viết chương trình để tìm ra số đặc biệt lớn thứ k, nếu như không thể tìm được thì hãy trả về -1.
+
+Ví dụ:
+    Với arr = [1,2], k = 5 thì kthSpecialNumber(arr, k) = "21"
+    Giải thích: Dãy số đặc biệt là: 1, 2, 11, 12, 21, 22, ...
+    Với arr = [4,3,5], k = 7 thì kthSpecialNumber(arr, k) = "43"
+    Giải thích: Dãy số đặc biệt là: 3, 4, 5, 33, 34, 35, 43, ...
+Đầu vào/Đầu ra:
+    [Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+    [Đầu vào] array of integer arr.
+    1 ≤ arr.length ≤ 10.
+    0 ≤ arr[i] ≤ 9. 
+    arr chứa các phần tử đôi một khác nhau.
+    [Đầu vào] integer k
+    1 ≤ k ≤ 108
+
+[Đầu ra] String.
+
+link https://codelearn.io/training/detail/1301672
