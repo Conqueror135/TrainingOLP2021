@@ -1,0 +1,29 @@
+Minh đang tham gia một cuộc thi lập trình của Codelearn, danh sách các thí sinh, ranking, 
+phải được sắp xếp theo thứ tự số điểm cao nhất đến thấp nhất và tuân theo quy tắc sau:
+
+Thí sinh có số điểm cao hơn sẽ có xếp hạng cao hơn trong danh sách ranking,
+thí sinh thứ i sẽ có số điểm là ranking[i]
+Các thí sinh có điểm bằng nhau sẽ có xếp hạng bằng nhau.
+Lần lượt các lần nộp bài của Minh sẽ được ghi số điểm vào một danh sách scores riêng, 
+biết rằng xếp hạng ranking là không thay đổi, hãy cho biết xếp hạng của Minh trong các lần nộp bài.
+
+Ví dụ:
+
+Với ranking = [100, 100, 50, 40, 40, 20, 10] và scores = [5, 25, 50, 120]
+thì marathon_ranking(ranking, scores) = [6, 4, 2, 1]
+Giải thích:
+    Lần nộp bài đầu tiên, Minh được 5 điểm, xếp hạng thứ 6
+    Lần nộp bài thứ hai, Minh được 25 điểm, xếp hạng thứ 4
+    Lần nộp bài thứ ba, Minh được 50 điểm, xếp hạng thứ 2
+    Lần nộp cuối cùng, Minh được 120 điểm, xếp hạng thứ 1
+[Đầu vào/Đầu ra]:
+
+[Thời gian chạy]: 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] Array of Integers ranking, scores
+    1 <= ranking.length <= 10^6
+    1 <= ranking[i] <= 10^8
+    1 <= scores.length <= 10^6
+    1 <= scores[i] <= 10^8
+[Đầu ra] Array of Integers
+
+link https://codelearn.io/training/detail/3392010

@@ -1,0 +1,23 @@
+
+Nâm có một mảng số nguyên A. Nâm muốn chọn ra 2 vị trí i và j (i ≠ j) sao cho 
+tích của của A[i] và A[j] lớn nhất có thể. Và trả về tích của nó nhé!
+Note: Bạn hãy tìm 2 số đó với độ phức tạp bài toán là O(n) nhé :D.
+
+Ví dụ:
+
+Với A = [1, 5, 4, 5] thì maxProduct(A) = 25.
+Giải thích:
+2 số đó là 5 và 5 ở vị trí 2 và 4.
+Với A = [-3, -4, -2, -5] thì maxProduct(A) = 20
+Giải thích:
+2 số đó là -4 và -5 ở vị trí 2 và 4.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+[Đầu vào] Array.Integer A
+2 ≤ A.length ≤ 105
+|A[i]| ≤ 109
+[Đầu ra] Long
+Giá trị lớn nhất của 2 số trong mảng A.
+
+link https://codelearn.io/training/detail/2420969
