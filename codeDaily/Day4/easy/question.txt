@@ -1,0 +1,21 @@
+Cho 1 tập hợp chứa số nguyên dương
+
+Hãy tính tổng các số từ 1 tới n mà chia hết cho 1 trong các số trong tập hợp trên.
+
+Ví dụ:
+
+Với arr=[1,2,3], n = 4, thì sumOfNumbers(arr,n) = 10
+Với arr=[11], n = 10, thì sumOfNumbers(arr,n) = 0
+Đầu vào/đầu ra:
+
+Đầu vào: array.integer arr
+Tập hợp các số nguyên dương
+1 <= arr.size() <= 10
+1 <= arr[i] <= 100
+Đầu vào: integer n
+0 <= n <= 10000
+Đầu ra: integer
+Tổng các số nguyên thoả mãn yêu cầu
+
+link:
+https://codelearn.io/training/detail/53109

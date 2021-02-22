@@ -1,0 +1,22 @@
+Cho một mảng các số nguyên arr, bạn hãy xác định xem có thể chia mảng arr thành hai tập con mà tổng các phần tử trong cả hai tập con là như nhau không.
+
+Ví dụ:
+
+Với arr = [1, 2, 6, 3], thì output là divide_the_array_equally(arr) = true.
+Giải thích: có thể phân mảng này thành hai tập là [6] và [1, 2, 3].
+Với arr = [5, 7, 1], thì output là divide_the_array_equally(arr) = false.
+
+Đầu vào/Đầu ra
+
+[Giới hạn thời gian thực hiện] 0,5 giây với C++ và Java, 3 giây với c#, 4 giây với Js, Python và Go.
+
+[Đầu vào] Array.integer arr
+
+3 ≤ arr.length ≤ 50 ,
+0 ≤ arr[i] ≤ 1000.
+
+[Đầu ra] boolean
+Trả về true nếu arr có thể được chia thành hai tập con với tổng bằng nhau. Trả lại false nếu không.
+
+link:
+https://codelearn.io/training/detail/2216656
