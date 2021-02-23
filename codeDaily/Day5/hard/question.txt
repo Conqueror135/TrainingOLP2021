@@ -1,0 +1,17 @@
+Cho bạn một mảng points chứa tọa độ 3 điểm bất kỳ. Hãy tìm tọa độ của điểm còn lại để 4 điểm hình thành 1 hình chữ nhật.
+
+Ví dụ:
+
+points = [[2,8], [2,3], [13,3]] thì createRectangle(points) = [13, 8].
+
+Đầu vào/ Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript
+Đầu vào: Matrix.integer points 
+Với points[i][0] và points[i][1]  lần lượt là tọa độ x, y của điểm thứ i trong hình vuông.
+points.length = 3
+-1000 <= points[i][0], points[i][1] <= 1000
+Đầu ra: Array.integer
+
+link:
+https://codelearn.io/training/detail/529627

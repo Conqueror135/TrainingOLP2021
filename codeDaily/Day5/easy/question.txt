@@ -1,0 +1,17 @@
+Một số điện thoại được gọi là chuẩn và đẹp nếu nó có độ dài đúng 10 kí tự, các kí tự đều là các chữ số, luôn bắt đầu bởi một số 0 và không kết thúc bởi các số 4, 7, 0.
+
+Cho một chuỗi phone chứa các kí tự, hãy xác định xem phone có phải một số điện thoại chuẩn và đẹp hay không. Trả về true nếu phone là số điện thoại chuẩn và false nếu không.
+
+Ví dụ: 
+
+Với phone = 0966533532  thì đầu ra validPhoneNumber(phone) = true. 
+Với phone = 0944533534  thì đầu ra validPhoneNumber(phone) = false. 
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s (C++), 0.6s (Java, C#), 0.8s (Python, JavaScript)
+[Đầu vào] string phone
+Một chuỗi ký tự để kiểm tra.
+[Đầu ra] boolean
+true nếu phone là số điện thoại chuẩn và false nếu không.
+link:
+https://codelearn.io/training/detail/464129
