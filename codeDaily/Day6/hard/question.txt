@@ -1,0 +1,20 @@
+Cho hai số nguyên dương N và K. Ta gọi X10 của một số là nhân số đó với 10,
+ví dụ số X10 của 24 là 240, X10 tiếp được số 2400.
+
+Gọi số S là tổng của số N và K số X10 liên tiếp của N, bạn hãy viết hàm trả về S.
+
+Ví dụ: 
+
+Với N = 123, K = 3, thì sumDigits(N, K)= "136653".
+Giải thích: S = 123 + 1230 + 12300 + 123000 = 136653.
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy]: 0.5 giây với C++, 3 giây với Java và C#, 4s với Python, GO và Js.
+[Đầu vào] int N
+0 ≤ N ≤ 106
+[Đầu vào] int K
+1 ≤ K ≤ 100
+[Đầu ra] string
+
+link:
+https://codelearn.io/training/detail/2130305
