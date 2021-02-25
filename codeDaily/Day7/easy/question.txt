@@ -1,0 +1,19 @@
+Số chính phương là số mà nó có thể phân tích thành bình phương của một số nguyên dương, ví dụ: 1,4,9,16,25,... là các số chính phương.
+
+Cho số nguyên dương n, hãy kiểm tra xem n có chia hết với số chính phương khác 1 không. Đưa ra false nếu có, true nếu không.
+
+Ví dụ:
+
+Với n = 8, thì squaredDivided(n) = false.
+Giải thích: vì ngoài 1 ra thì n còn chia hết cho số chính phương khác là 4.
+Với n = 7, thì squaredDivided(n) = true.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java, C#, 0.8s với Python, Js, Go
+[Đầu vào] Long n.
+1 ≤ n ≤ 1012.
+[Đầu ra] Boolean
+Hãy kiểm tra xem n có chia hết với số chính phương khác 1 không. Đưa ra false nếu có, true nếu không.
+ 
+link:
+https://codelearn.io/training/detail/357173

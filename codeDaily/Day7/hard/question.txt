@@ -1,0 +1,35 @@
+Nâm là một cậu bé đang học lớp 5 và rất thích môn toán. Hôm nay lên lớp,
+cô giáo ra một bài toán: Cho các phân số, đếm số các cặp phân số khác nhau mà có tổng bằng 1.
+
+Thật là rối!! Nâm đếm đi đếm lại vẫn không đúng. Bạn hãy giúp cậu bé kiếm điểm 10 nhé. 
+Các phân số được cho dưới dạng 2 mảng numerator và denominator, 
+mảng numerator chứa các tử số, denominator chứa các mẫu số. 
+Phần tử thứ i của numerator biểu diễn tử số của phần số thứ i. 
+Phần tử thứ i của denominator biểu diễn mẫu số của phần số thứ i. 
+Do đó phân số thứ i sẽ có giá trị là numerator[i]/denominator[i]. 
+Số lượng cặp có thể rất lớn, vậy nên kết quả chia lấy dư 1000000007.
+
+Ví dụ:
+
+Với numerator = [1, 2, 3, 1, 2] và denominator = [2, 4, 5, 2, 5] 
+    thì numberOfFraction(numerator, denominator) = 4. 
+    Các cặp phân số là [1/2 , 2/4], [1/2, 1/2], [1/2, 2/4], [3/5, 2/5]. 
+Với numerator = [1, 1, 1, 1, 1] và denominator = [2, 2, 2, 2, 2] 
+    thì numberOfFraction(numerator, denominator) = 10
+Với numerator = [1, 5, 12, 4, 1] và denominator = [5, 5, 15, 3, 2] 
+    thì numberOfFraction(numerator, denominator) = 1
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian] 1 giây với C++, 6 giây Java, C# và thời gian chạy với Js, Python, Go là 8 giây.
+[Đầu vào] Array of integers numerator
+    2 ≤ numerator.length ≤ 105
+    1 ≤ numerator[i] ≤ 109
+[Đầu vào] Array of Integers denominator
+numerator.length == denominator.length
+    2 ≤ denominator.length ≤ 105
+    1 ≤ denominator[i] ≤ 109
+[Đầu ra] Integer
+Số cặp phân số khác nhau có tổng là 1, kết quả tính được lấy dư cho 1000000007.
+
+link:
+https://codelearn.io/training/detail/1731032
