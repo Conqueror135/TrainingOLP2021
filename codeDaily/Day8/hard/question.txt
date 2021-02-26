@@ -1,0 +1,22 @@
+
+
+Cho một tháp tam giác số cân. 
+Tìm đường đi từ đỉnh tới chân tháp, sao cho tổng các số trên đường đi là lớn nhất. 
+Chỉ được đi chéo xuống bên trái hoặc phải. Các số được đảm bảo nằm trong khoảng từ 0 tới 99.
+
+Ví dụ:
+
+Với đầu vào như hình trên, tổng lớn nhất là 30 đầu ra là the_triangle(a) ,
+có thể đi từ đỉnh theo thứ tự trái, trái, phải và trái (7 + 3 + 8 + 7 + 5 = 30).
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+[Đầu vào] Matrix.Integer a
+Ma trận chứa các số trong tháp. Tháp có độ cao từ 1 đến 100, hàng thứ i có i số trong khoảng từ 0 đến 99.
+0 < a.size ≤ 100
+0 < a[i][j] ≤ 100
+[Đầu ra] Integer
+Tổng lớn nhất theo yêu cầu.
+
+link:
+https://codelearn.io/training/detail/740787

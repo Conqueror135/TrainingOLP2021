@@ -1,0 +1,20 @@
+Cho một mảng các số, hãy in ra màn hình GCD (ước chung lớn nhất) của tất cả các số đó
+
+Ví dụ:
+
+Với a = [1, 2, 3], thì kết quả là gCDofNumbers(a) = 1
+Với a = [2, 4, 6],thì kết quả là gCDofNumbers(a) = 2
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy] 1s
+
+[Đầu vào] array.integer A
+
+0< A[i] <= 1000000
+
+[Đầu ra] integer
+
+Ước chung lớn nhất của mảng
+
+link:
+https://codelearn.io/training/detail/33265
