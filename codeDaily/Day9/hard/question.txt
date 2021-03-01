@@ -1,0 +1,22 @@
+
+Một số n được gọi là số phản nguyên tố nếu số ước số của nó là nhiều nhất trong n số tự nhiên đầu tiên.
+Cho số k hãy tìm số phản nguyên tố lớn nhất nhỏ hơn hoặc bằng k.
+
+Ví dụ:
+
+Với k = 9 thì anti_primes(k) = 8
+
+Giải thích:
+Các số từ 0 -> 9 có số các ước lần lượt là [1, 2, 2, 3, 2, 4, 2, 4, 3]
+Thì kết quả thỏa là số: 8
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] integer k.
+1 ≤ k ≤ 2.109
+[Đầu ra] integer.
+Kết quả thỏa mãn đề
+
+link:
+https://codelearn.io/training/detail/4623546
