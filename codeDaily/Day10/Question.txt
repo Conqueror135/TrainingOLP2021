@@ -1,4 +1,10 @@
-Một ngày n bạn bè tụ tập cùng nhau để chơi "Mafia". Trong mỗi vòng của trò chơi, 1 người chơi phải là người giám sát và n - 1 người khác tham gia vào trò chơi. Cho trước mảng arr trong đó arri là số vòng mà người thứ i muốn trở thành người chơi mà không phải là người giám sát. Hãy tìm số vòng tối thiểu của trò chơi "Mafia" mà họ cần chơi là bao nhiêu để cho mỗi người chơi ít nhất số vòng như họ muốn?
+Một ngày n bạn bè tụ tập cùng nhau để chơi "Mafia". 
+Trong mỗi vòng của trò chơi, 1 người chơi phải là 
+người giám sát và n - 1 người khác tham gia vào trò chơi. 
+Cho trước mảng arr trong đó arri là số vòng mà người thứ i muốn 
+trở thành người chơi mà không phải là người giám sát. 
+Hãy tìm số vòng tối thiểu của trò chơi "Mafia" mà họ cần chơi là 
+bao nhiêu để cho mỗi người chơi ít nhất số vòng như họ muốn?
 
 Ví Dụ :
 
@@ -11,7 +17,8 @@ Vòng thứ 3: Người thứ 3 làm giám sát.
 
 Vòng thứ 4: người thứ 2 làm giám sát. 
 
-==> Cần ít nhất 4 vòng chơi thì tất cả mọi nguời đều chơi ít nhất nhiều vòng như họ muốn. ( Có thế có nhiều cách chơi khác khau )
+==> Cần ít nhất 4 vòng chơi thì tất cả mọi nguời đều chơi ít nhất nhiều vòng như họ muốn. 
+( Có thế có nhiều cách chơi khác khau )
 
 Đầu vào/Đầu ra:
 
