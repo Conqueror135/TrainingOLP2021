@@ -1,0 +1,21 @@
+Cho một chuỗi s gồm các ký tự chữ cái in thường (a..z). 
+Hãy tìm và in ra ký tự xuất hiện nhiều nhất, 
+nếu có nhiều ký tự có xuất hiện bằng nhau và lớn nhất thì đưa ra ký txuất hiện trong s sớm hơn.
+
+Ví dụ:
+
+Với s= "abbcaa", thì prominentCharacters(s) = 'a'.
+Giải thích: Trong chuỗi s ký tự 'a' xuất hiện nhiều nhất với số lần xuất hiện là 3.
+Với s = "abbac", thì prominentCharacters(s) = 'a'.
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+
+[Đầu vào] String s
+1 ≤ s.length ≤ 105.
+[Đầu ra] char
+Ký tự xuất hiện nhiều nhất.
+
+link:
+https://codelearn.io/training/detail/524659
