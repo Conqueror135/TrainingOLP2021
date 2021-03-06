@@ -1,0 +1,31 @@
+Một khu mỏ hoang nọ có n phòng, bắt đầu từ phòng 1 đến n, 
+phòng thứ i sẽ có a[i] là số đá quý chứa trong phòng đó. Để di chuyển giữa các phòng, 
+người thợ mỏ phải thỏa mãn các điều kiện sau:
+
+- Mỗi phòng chỉ được đi qua tối đa 1 lần
+- Chỉ được phép đi từ phòng có số đá quý ít hơn đến phong có số đá quý cao hơn
+- Từ phòng i chỉ có thể di chuyển đến phòng i + 1 hoăc i - 1
+Hãy giúp người thợ mỏ chọn ra số thứ tự của căn phòng để bắt đầu việc thu thập đá quý 
+sao cho số đá quý thu thập được là lớn nhất. Và trả về số lượng đá quý đó.
+
+Ví dụ:
+
+Với a = [0, 2, 3, 5, 1] thì minerTrouble(a) = 10;
+Giải thích:
+Thợ mỏ bắt đầu tại căn phòng thứ 2: a[1]=2
+Thợ mỏ đi đến phòng thứ 3: a[2]=3
+Thợ mỏ kết thúc ở căn phòng thứ 4: a[3]=5, tổng số đá quý là 10
+Với a = [0, 9, 0, 1, 7] thì  minerTrouble(a) = 9; 
+Giải thích:
+Thợ mỏ bắt đầu tại a[1] và thu đươc 9 đá quý.
+Đầu vào/ Đầu ra:
+
+[Thời gian chạy]  0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào]: Array: a
+0 ≤ a.size() ≤ 10^5
+0 ≤ a[i] ≤ 1018.
+[Đầu ra]: Integer
+Số đá quý tối đa mà thợ mỏ có thể thu thập được, lấy phần dư cho 10^9+7
+
+link:
+https://codelearn.io/training/detail/730575
