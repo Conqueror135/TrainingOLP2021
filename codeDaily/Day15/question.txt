@@ -1,0 +1,20 @@
+Bạn hãy trả về số bé nhất (tính cả số âm) xuất hiện trong chuỗi str. 
+Nếu không có số nào ở trong chuỗi str thì trả về -1.
+
+Ví dụ:
+
+str = "a-123b4" thì max_number_in_string(str) = -123
+Các số xuất hiện trong chuỗi str là: -1, 2, 3, -12, 23, -123, 4 và số 123 là số bé nhất.
+str = "abcd" thì max_number_in_string(str) = -1
+Do không có số nào xuất hiện trong chuỗi str nên trả về -1.
+Đầu ra/ Đầu vào:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] String str
+0 <= str.length <= 10^5
+[Đầu ra] Long
+
+link:
+https://codelearn.io/training/detail/828445
+
+/*/áp dụng chế độ phạt!
