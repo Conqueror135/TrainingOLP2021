@@ -1,0 +1,16 @@
+Cho một số nguyên dương n và một số nguyên k (k >= 0). Hãy tìm tất cả các số x có n chữ số và các chữ số liền kề trong x cách nhau đúng k đơn vị (không có số 0 vô nghĩa ở đầu như 01). Các kết quả trả về lưu vào một mảng được sắp xếp tăng dần.
+
+Ví dụ:
+
+Với n = 3, k = 7. Đầu ra createNumber(n,k) = [181,292,707,818,929].
+     Giải thích: Đối với số 181 thì số 1 ở vị trí 1 và số 8 ở vị trí 2 cách nhau 7 đơn vị, số 8 ở vị trí 2 và số 1 ở vị trí 3 cách nhau 7 đơn vị
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] Integer n, k.
+1 <= n <= 9
+0 <= k <= 9
+[Đầu ra] Array Of Integers
+Số lượng số thỏa mãn đã được sắp xếp tăng dần
+Link : https://codelearn.io/training/detail/3103402
