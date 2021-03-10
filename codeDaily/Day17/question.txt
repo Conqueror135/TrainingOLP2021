@@ -1,0 +1,23 @@
+Xét băng giấy có độ dài 2^K ô và độ rộng một ô. Các ô dược đánh số từ trái sang phải, bắt đầu từ 1. 
+Người ta gập đôi băng giấy, lật từ phải sang trái, sao cho các ô đầu tiên nằm ở lớp dưới. 
+Như vậy băng giấy trở thành hai lớp và độ dài còn một nửa. 
+Người ta cứ gập đôi như vậy cho đến khi nó có 2^K lớp.
+
+Yêu cầu: Cho K và N (1 ≤ K ≤ 30, 1 ≤ N ≤ 2 000 000 000), hãy xác định ô thứ N nằm ở lớp thứ mấy từ dưới lên. 
+Đưa ra -1 nếu băng giấy không có ô thứ N.
+
+Ví dụ:
+
+Với K = 2, N = 4. Sau 2 lần gấp giấy thì ô thứ 4 nằm ở lớp thứ 2 từ dưới lên. Vậy findpaper(K, N) = 2.
+Đầu vào/đầu ra:
+
+[Giới hạn thời gian chạy] 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, GO và Js.
+[Đầu vào] Integer K
+Số nguyên dương K(1 ≤ K ≤ 30)
+[Đầu vào] Integer N
+Số nguyên dương  N (1 ≤ N ≤ 2. 10^9)
+[Đầu ra] Integer
+Kết quả tìm được.
+
+link:
+https://codelearn.io/training/detail/1749245
