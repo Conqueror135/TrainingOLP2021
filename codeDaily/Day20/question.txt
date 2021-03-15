@@ -1,0 +1,19 @@
+Cho chuỗi str, trong chuỗi này có chứa một chuỗi đối xứng với số lượng lẻ kí tự (VD: "aba","xyzyx"). 
+Tìm chuỗi đối xứng dài nhất đầu tiên được tìm thấy trong chuỗi str.
+
+Ví dụ:
+
+Với str = "hdfbabs" -> symmetrical_String(str) = "bab".
+Với str = "sdfnfnfcvb" ->  symmetrical_String(str) = "fnfnf".
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] String str
+str.length ≤ 2.10^5
+
+[Đầu ra] String
+Chuỗi đối xứng lẻ dài nhất.
+
+link:
+https://codelearn.io/training/detail/1902426
