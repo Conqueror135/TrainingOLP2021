@@ -1,0 +1,31 @@
+Cho một mảng số nguyên a và một mảng số nguyên b. Bạn hãy cho biết:
+
+Nếu có tồn tại một cặp số, mà trong đó có một số thuộc a và số kia phải thuộc b, 
+mà tổng của cặp số đó chính xác bằng s.
+
+Ví dụ:
+
+Với a = [1, 2, 4], b = [4, 6, 2], s = 10 thì kết quả pair_with_exactly_sum(a, b, s) = True
+Với a = [1, 2], b = [3, 4], s = 7 thì kết quả pair_with_exactly_sum(a, b, s) = False
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] array of integer a.
+0 ≤ a.size ≤ 10^6
+
+  -104 ≤ a[i] ≤ 10^4
+
+[Đầu vào] array of integer b.
+0 ≤ b.size ≤ 10^6
+
+  -104 ≤ b[i] ≤ 10^4
+
+[Đầu vào] integer s.
+0 ≤ s ≤ 10^9
+
+[Đầu ra] boolean.
+Trả về True nếu có cặp số thỏa mãn yêu cầu, ngược lại False
+
+Link:
+https://codelearn.io/training/detail/1952815
