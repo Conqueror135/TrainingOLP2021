@@ -1,0 +1,16 @@
+Cho số nguyên dương n. Viết chương trình tìm số nguyên dương k lớn nhất để k2 ≤ n
+
+Lưu ý: Số nhập vào và kết quả xuất ra có thể rất lớn. Nhập và xuất với string
+
+Ví dụ:
+
+Với n = 50 thì find_sqroot(n) = 7.
+Đầu vào/đầu ra:
+
+[Thời gian chạy] 1 giây với C++, 6 giây với Java và C#, 8 giây với Python, GO và Js.
+[Đầu vào] string n
+           1 ≤ n ≤ 10^100
+
+[Đầu ra] string
+Một xâu là số nguyên k
+Link https://codelearn.io/training/detail/1737066
