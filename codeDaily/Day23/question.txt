@@ -1,0 +1,16 @@
+Bảo có một hình tròn có bán kính r có đơn vị độ dài. 
+Biết rằng mỗi pixel sẽ cách các pixel khác đúng bằng một đơn vị độ dài. 
+Nếu Bảo tô tất cả các pixel nằm bên trong đường tròn đó thì Bảo có thể tô được bao nhiêu pixel.
+
+Ví dụ:
+
+Với r = 3 thì kết quả paint_pixel(r) = 29
+Đầu vào/Đầu ra:
+    [Thời gian chạy] 0.2s với C++, 1.2s với Java và C#, 1.6s với Python, Go và JavaScript.
+    [Đầu vào] integer n.
+    1 ≤ n ≤ 10^6
+    [Đầu ra] long.
+    Trả về số lượng pixel đã được tô màu
+
+Link:
+https://codelearn.io/training/detail/2061123
