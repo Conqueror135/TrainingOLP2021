@@ -1,0 +1,24 @@
+Trí là một sinh viên rất ham học hỏi. Mặc dù chỉ mới học được cách tô màu 1 pixel bằng thư viện graphics.h, nhưng Trí có thể vẽ được 1 hình tròn dễ dàng nếu biết bán kính và tọa độ tâm. Trí làm như thế nào? Đương nhiên là Trí tô màu từng pixel một rồi. Cứ tô từng pixel, từng pixel, cứ pixel nào ở trong hoặc nằm trên đường tròn thì tô, tô hết là được hình tròn thôi. Vậy theo bạn, Trí đã tô tổng cộng bao nhiêu pixel?
+
+Hình mẫu dưới đây :
+
+
+
+Yêu cầu : cho bán kính R  (tất nhiên đơn vị là pixel). hãy tính số pixel mà Trí đã tô.
+
+Ví Dụ:
+
+Với R = 0 thì point(R) = 1. Với bán kính là 0. Trí tô 1 pixel là tâm hình tròn.
+Với R = 1 thì point(R) = 5. Với bán kính là 1. trí tô 1 pixel là tâm và 4 pixel chung quanh. 4 pixel ở đường chéo không tô vì đã nằm ngoài đường tròn bán kính 1.
+Với R = 3 thì point(R) = 29. (như hình trên ) .
+Với R = 5 thì point(R) = 81 . (hình dưới đây)
+
+
+Đầu vào/Đầu ra:
+
+[Thời gian] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào]  Integer r
+0 ≤ r ≤ 100000
+[Đầu ra] long  
+số pixel mà Trí đã tô.
+Link : https://codelearn.io/training/detail/549996
