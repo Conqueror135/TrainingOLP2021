@@ -1,0 +1,23 @@
+Cho một dãy số nguyên a. Hãy đưa ra số lần chia nhỏ nhất để dãy số đó chỉ chứa toàn số lẻ biết: 
+    Mỗi lần chia bạn được phép chia những phần tử chẵn có cùng giá trị cho 2.
+
+Ví dụ:
+
+Với a = [8, 3, 10, 4] thì minDivision(a) = 4.
+Giải thích:
+Lần 1 chia các phần tử có giá trị 10 cho 2, a = [8, 3, 5, 4].
+Lần 2 chia các phần tử có giá trị 8 cho 2, a = [4, 3, 5, 4].
+Lần 3 chia các phần tử có giá trị 4 cho 2, a = [2, 3, 5, 2].
+Lần 4 chia các phần tử có giá trị 2 cho 2, a = [1, 3, 5, 1] và a đã chứa toàn số lẻ!.
+Với a = [1, 2, 3, 4] thì minDivision(a) = 2.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] array of integer a.
+1 ≤ size a ≤ 10^5.
+1 ≤ a[i] ≤ 10^7.
+[Đầu ra] integer.
+Số lần chia ít nhất đề dãy chứa toàn số lẻ.
+
+Link:
+https://codelearn.io/training/detail/884499
