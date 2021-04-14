@@ -1,0 +1,18 @@
+Vũ "Maripium" Hoàng Kiên là một bác sĩ phẫu thuật nổi tiếng và giàu có, thế nhưng đường tình duyên của anh lại rất trắc trở. Sau khi lập đàn cầu may, anh đã được crush chủ động tiếp chuyện! Crush thách anh chơi một trò chơi, nếu như anh thắng thì hai người sẽ đi ăn với nhau. Trò chơi đó như sau:
+
+Cho n chồng chocolate, mỗi chồng có a[i] viên chocolate. Hai người lần lượt ăn các viên chocolate. Mỗi lần ăn chỉ được ăn ở duy nhất 1 chồng chocolate, và phải ăn ít nhất 1 viên, nhiều nhất a[i] viên. Không được ăn ở chồng đã hết chocolate (a[i] = 0). Trò chơi kết thúc khi tất cả các chồng đều hết chocolate, khi đó đến lượt ai thì người đó thua. Bác sĩ đi trước.
+
+Cho dãy a[1], a[2], ..., a[n], hãy cho bác sĩ biết mình có được đi ăn với crush hay không.
+
+Ví dụ:
+
+Với a = [1, 2] thì lượt đầu tiên, bác sĩ sẽ ăn 1 viên chocolate ở chồng thứ 2. Khi đó, cho dù crush ăn ở chồng nào thì bác sĩ luôn ăn ở chồng còn lại, nên crush thua.
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy] 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, Go và Js.
+[Đầu vào] Integer n, k
+1 <= n <= 105.
+1 <= a[i] <= 109.
+[Đầu ra] Boolean
+Trả về giá trị tương ứng với việc bác sĩ có thể đi ăn với crush hay không.
+link : https://codelearn.io/training/detail/2135559
