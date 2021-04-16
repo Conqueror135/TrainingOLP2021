@@ -1,0 +1,19 @@
+Trong hàng đợi mua coca có 5 người theo thứ tự A, B, C, D, E. Sau khi mua và uống coca, 
+hành khách sẽ nhân bản số lượng lên thành hai và cả hai sẽ lại tiếp tục xếp hàng mua coca.
+
+Ví dụ: A mua và uống coca, A nhân bản thành hai và cả hai xuống cuối xếp hàng 
+-> Hàng đợi thành B,C,D,E,A,A, sau đó B mua -> Hàng đợi thành C,D,E,A,A,B,B, .... 
+
+Nhân kỉ niệm n năm thành lập, người mua thứ n sẽ là người may mắn nhận được giải thưởng đặc biệt. 
+Hãy cho biết tên của người đó?
+
+Đầu vào/đầu ra:
+
+Giới hạn thời gian chạy: 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, GO và Js.
+[Đầu vào] int n
+1 <= n <= 10^9
+[Đầu ra] char x
+Tên của người may mắn (Trong 5 người A,B,C,D,E)
+
+Link:
+https://codelearn.io/training/detail/561861
