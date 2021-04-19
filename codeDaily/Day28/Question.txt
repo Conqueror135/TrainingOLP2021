@@ -1,0 +1,13 @@
+Cho số nguyên dương N. Hãy cho biết có bao nhiêu dãy số nguyên dương có tổng các phần tử trong dãy bằng N. 
+
+Ví Dụ: 
+
+Với N=3 thì counting(n) = 4 Giải thích: Có 4 dãy số nguyên dương có tổng bằng 3 đó là:(1;1;1), (1;2), (2;1), (3).
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy] 0.2s với C++, 1s với Java, C#, 1s với Python, Js, Go
+[Đầu vào]  long long
+1 ≤ n ≤ 10^18
+[Đầu ra] long long
+Một số nguyên duy nhất là số dư của kết quả tìm được khi chia cho 123456789.
+Link : https://codelearn.io/training/detail/529925
