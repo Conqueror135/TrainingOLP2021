@@ -1,0 +1,33 @@
+Hải rất thích những tập hợp có cùng số phần tử, biết rằng hai tập hợp gọi là khác nhau nếu
+chúng khác nhau về số lượng phần tử hoặc tồn tại phần tử ở tập hợp này mà tập hợp kia không có.
+
+Hải có hai số nguyên dương n, m và muốn đếm số tạp hợp thỏa mãn:
+
+Có m phần tử riêng biệt.
+Các phần tử trong tập hợp là số nguyên dương không vượt quá n.
+Các phần tử có thể lập thành một dãy cấp số cộng.
+Ví dụ:
+
+Với n = 4  và m = 4 thì countArray(n) = 1.
+Giải thích: Có 1 tập hợp thỏa mãn là:
+{1, 2, 3, 4}
+Với n = 5 và m = 3 thì countArray(n) = 4.
+Giải thích: Có 2 tập hợp thỏa mãn là:
+{1, 2, 3}
+{1, 3, 5}
+{2, 3, 4}
+{3, 4, 5}
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Integer n.
+1 ≤ n ≤ 10^9.
+
+[Đầu vào] Integer m.
+2 ≤ n ≤ 10^9.
+[Đầu ra] Long.
+Số lượng tập hợp thõa mãn.
+
+Link:
+https://codelearn.io/training/detail/832337
