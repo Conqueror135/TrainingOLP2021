@@ -1,0 +1,17 @@
+Kiên định thuê trọ tại một dãy nhà sinh viên có y phòng được đánh số từ 1 đến y. Trong khu trọ có những Kẻ trộm sách ở từ phòng 2 tới phòng thứ p. biết tên trộm ở phòng trọ thứ x sẽ đi ăn trộm sách ở phòng thứ x, 2x, 3x,..., nx. Kiên có những cuốn sách bí kíp võ công từ thời Trương Tam Phòng phái Võ Đang truyền lại và đang cần bảo vệ. 
+
+Để đề phòng, Kiên chọn phòng càng xa những tên trộm càng tốt. Hãy giúp Kiên chọn phòng cần thuê đạt yêu cầu.
+
+Ví dụ:
+
+Với y = 8, p = 3. Thì theBookThief(y,p) = 7. Giải thích: Những tên trộm ở phòng 2, 3. Tên trộm phòng 2 sẽ trộm phòng 2,4,6,8. Tên trộm phòng 3 sẽ trộm phòng 3,6. Các phòng 1,5,7 an toàn. ---> Kết quả là phòng 7, vì phòng 7 xa với những tên trộm nhất.
+Với y = 4, p = 3. Thì theBookThief(y,p) = 1.
+Đầu vào/đầu ra:
+
+Giới hạn thời gian chạy: 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, GO và Js.
+[Đầu vào] integer y, p
+Số phòng của khu trọ và phòng ở của những tên trộm.
+2 <= p <= y <= 10^9
+[Đầu ra] int a
+Phòng an toàn mà Kiên sẽ thuê.
+Link : https://codelearn.io/training/detail/567613
