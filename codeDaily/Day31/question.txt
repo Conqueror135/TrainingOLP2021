@@ -1,0 +1,20 @@
+Hải có hai số nguyên dương a và b, Hải muốn tạo ra số c bằng cách ghép các chữ số của a và của b. 
+Sao cho các chữ số trong a và b xuất hiện trong c theo thứ tự như lúc đầu. 
+Hãy đưa ra số lớn nhất có thể ghép được theo yêu cầu trên.
+
+Ví dụ:
+
+Với a = 8642 và b = 531 thì maxNumber(a, b) = 8654321.
+Với a = 534 và b = 644 thì maxNumber(a, b) = 654434.
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Integer: a, b.
+1 ≤ a, b ≤ 10^7.
+[Đầu ra] Long long.
+Số lớn nhất có thể ghép được theo yêu cầu của đề bài.
+
+Link:
+https://codelearn.io/training/detail/1193098
