@@ -1,0 +1,20 @@
+Trang đang học về phép mod (phép chia lấy dư), ví dụ: 4 mod 5 = 4; 9 mod 6 = 3. Trang có một mảng số nguyên a và trang cần tìm giá trị lớn nhất của a[i] mod a[j] (0 ≤ i, j < a.size).
+
+(Dữ liệu đầu vào đảm bảo trong mảng luôn có phần tử khác 0).
+
+Ví dụ:
+
+Với a = [4, 8, 3, 1], thì maxMod(a) = 4.
+Giải thích: a[0] mod a[1] = 4.
+Với a = [6, 9, 6, 4, 7], thì maxMod(a) = 7.
+Giải thích: a[4] mod a[1] = 7.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Arrays: integer: a
+1 ≤ a.size() < 105.
+0 ≤ a[i] < 2.109.
+[Đầu ra] Integer
+Giá trị lớn nhất của a[i] mod a[j] (0≤i,j<a.size).
+Link : https://codelearn.io/training/detail/524080
