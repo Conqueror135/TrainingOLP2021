@@ -1,0 +1,23 @@
+Cho một mảng arr và một số nguyên dương k. Tìm số lượng phần tử nhỏ nhất trong mảng cần xóa đi
+sao cho max(arr) - min(arr) <= k. Trong đó max(arr) và min(arr) lần lượt là phần tử lớn nhất và 
+nhỏ nhất của mảng sau khi đã xóa đi các phần tử đó.
+
+Ví dụ:
+
+Với arr = [1, 5, 6, 2, 8], k = 2. Đầu ra minRemovals(arr, k) = 3.
+     Giải thích: Xóa các số 5, 6, 8 hoặc 1, 2, 5.
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào]  Array of Integers arr
+2 <= arr.length <= 10^5
+
+[Đầu vào]  Integer k
+0 <= k <= 10^5
+[Đầu ra] Integer
+Số lượng phần tử cần xóa nhỏ nhất
+
+Link:
+https://codelearn.io/training/detail/7065030
