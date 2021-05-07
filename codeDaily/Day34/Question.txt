@@ -1,0 +1,21 @@
+Một số được gọi là composite number khi nó không phải là số nguyên tố và là số nguyên dương lớn hơn 1(ví dụ 4, 6, 8, 9, ...). Cho một số nguyên dương n, hãy tính số lượng số composite number để tạo thành số n nhiều nhất có thể. Nếu không thể tạo ra được n, hãy trả về -1.
+
+Ví dụ: 
+
+Với n = 8. Đầu ra maxComNumbers(n) = 2
+     Giải thích: Số 8 có thể tạo thành từ 2 số 4
+
+Với n = 5. Đầu ra maxComNumbers(n) = -1
+     Giải thích: Số 5 không thể tạo thành từ các số composite number
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào]  Long long n
+1 <= n <= 10^18
+
+
+[Đầu ra] Integer
+Số lượng số composite lớn nhất
+Link : https://codelearn.io/training/detail/6843386
