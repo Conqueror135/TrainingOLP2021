@@ -1,0 +1,25 @@
+Một số gọi là số đẹp nếu tất cả các chữ số trong số đó đều giống nhau. ví dụ 111, 22, 3 là các số đẹp.
+
+Cho số nguyên dương a và b, Hãy đưa ra số lượng các số đẹp không nhỏ hơn a và không vượt quá b.
+
+Ví dụ:
+
+Với a = 8 và b = 12 thì countNumbersBeautiful(a, b) = 3.
+Giải thích: 3 số đẹp đó là 8, 9, 11.
+
+Với a = 11 và b = 20 thì countNumbersBeautiful(a, b) = 1.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Long: a
+1 ≤ a ≤ 10^15.
+
+[Đầu vào] Long: b
+1 ≤ b ≤ 10^15.
+
+[Đầu ra] Integer.
+Số lượng số đẹp trong khoảng từ a đến b (bao gồm cả a và b).
+
+Link:
+https://codelearn.io/training/detail/977917
