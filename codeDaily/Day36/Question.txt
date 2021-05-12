@@ -1,0 +1,22 @@
+Cho một mảng arr gồm các số nguyên. Hãy tìm những cặp được sắp xếp [a, b] thỏa mãn những điều kiện như sau
+
+a<b
+b-a là nhỏ nhất trong tất cả các cặp
+Ví dụ:
+
+Với arr = [4,2,1,3]. Đầu ra minimumAbsolute(arr) = [[1,2],[2,3],[3,4]].
+     Giải thích: Hiệu tất cả các cặp nhỏ nhất là 1, và các cặp thỏa mãn yêu cầu là [1,2], [2,3], [3,4].
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+[Đầu vào] Array of integer arr.
+      0<=arr.size()<=10^5
+
+      0<=arr[i]<=10^5
+
+      arr chỉ chứa các phần tử không trùng nhau.
+
+[Đầu ra] Matrix of integer
+Mảng chứa các cặp thỏa mãn điều kiện
+Link : https://codelearn.io/training/detail/2437043
