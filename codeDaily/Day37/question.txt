@@ -1,0 +1,22 @@
+Số nguyên x được gọi là số ngược tốt nếu các chữ số trong tổng x + reverse(x) đều lẻ.
+
+(reverse(x) là số x nhưng các chữ số viết ngược lại, reverse(x) không được bắt đầu bằng số 0)
+
+Cho số n. Hỏi có bao nhiêu số ngược tốt trong đoạn [1, n]?
+
+Ví dụ:
+
+n = 20 thì goodReverseNumbers(n) = 4
+
+Các số ngược tốt từ 1 đến 20 là: 12, 14, 16, 18
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JS.
+[Đầu vào] Integer: n
+1 ≤ n ≤ 10^9
+[Đầu ra] Integer
+Số các số ngược tốt trong khoảng [1, n]
+
+Link:
+https://codelearn.io/training/detail/2873205
