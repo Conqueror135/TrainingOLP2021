@@ -1,0 +1,20 @@
+Long có một hàng rào gồm n cây cọc gỗ xếp liên tiếp nhau được đánh số từ 1 đến n. Chiều cao của các cây cọc lần lượt là a1, a2, ..., an. Long có rất nhiều miếng dán hình chữ nhật với đủ mọi loại kích thước. Để trang trí, anh muốn dán kín hàng rào trên bằng các miếng dán này. Bạn hãy giúp Long tìm cách dán sao cho sử dụng ít hình chữ nhật nhất nhé. Các miếng dán không được đè lên nhau và không được dán dư vào khoảng trống, không cắt hình chữ nhật thành hình khác.
+
+Ví Dụ:
+
+Với a =[5, 4, 3,2 ,3 ,2] thì fence(a) = 5. Giải thích
+
+
+Đầu vào/Đầu ra
+
+[Thời gian chạy] 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, Js, Go
+
+[Đầu vào] array int a
+1 <= a.size() <= 10000
+
+  0 ≤ ai ≤ 109
+
+[Đầu ra] int
+   số lượng ít nhất các miếng dán hình chữ nhật cần dùng.
+
+Link : https://codelearn.io/training/detail/538187
