@@ -1,0 +1,20 @@
+Cho một hàng rào có n cột và k màu để tô trên hàng rào đó. Có thể tô hàng rào theo cách sau:
+
+Nhiều nhất là 2 cột liền kề cùng màu với nhau.
+Tất cả các cột phải đều có màu
+Hãy tìm số cách để tô hàng rào. Vì kết quả có thể rất lớn nên lấy dư cho 10^9 + 7
+
+Ví dụ:
+
+Với n = 3, k = 2. Đầu ra paintingFence(n, k) = 6.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] Integer n, k.
+     1 <= n, k <= 10^4
+
+[Đầu ra] Integer
+      Số cách để tô hàng rào.
+
+Link:
+https://codelearn.io/training/detail/5784910
