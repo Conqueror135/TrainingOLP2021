@@ -1,0 +1,30 @@
+Lee có một mảng arr gồm n hộp. Các hộp được đánh dấu lần lượt từ 1 đến n, các hộp thứ i chứa arr[i-1] socola. 
+Lee nghĩ nếu sự sắp xếp sẽ trông rất đẹp nếu các hộp được sắp lặp đi lặp lại một cách kì quặc. Cụ thể là:
+
+Hộp thứ nhất chứa số socola chẵn.
+Hộp thứ 2 chứa số lẻ.
+Hộp 3 chứa số chẵn.
+...
+Ví dụ:
+
+[2,1,4,5,6] là một sự sắp xếp đẹp
+[4,9,4,7,10] là một sự sắp xếp đẹp.
+Lee đang yêu cầu bạn thực hiện những sắp xếp đẹp mắt thậm chí từ các hộp của cô ấy. 
+Bạn được phép di chuyển một số socola từ hộp này sang hộp khác. 
+Nhưng bạn không được phép trao đổi các hộp. Trong sự sắp xếp cuối cùng, mỗi hộp phải chứa ít nhất một sô cô la.
+Hãy tính số socola tối thiểu cần di chuyên để có được một sự sắp xếp đẹp. Trả về -1 nếu không thể.
+
+Ví dụ:
+
+Với arr=[1,2,1,2] thì minimumChocolateMoves(arr) = 2 do ta có thể chuyển 1 socola từ hộp 2 sang hộp 1 và 1 socola từ hộp 4 sang hộp 3
+Với arr = [1,5,1] thì minimumChocolateMoves(arr) = 2 ta có thể chuyển một socola từ hộp 2 sang hộp 1 và một socola nữa từ hộp 2 sang hộp 3.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào]Array of integers
+1 <= arr.length() <= 10^5
+1 <= arr[i] <= 10^5
+[Đầu ra] Integer
+
+Link:
+https://codelearn.io/training/detail/2088855
