@@ -1,0 +1,19 @@
+Một người leo lên cầu thang có n bậc, ở mỗi bước có thể leo ít hơn hoặc bằng k bậc liền kề, hỏi có tổng cộng bao nhiêu cách để người này có thể di chuyển hết cầu thang.
+
+Ví dụ:
+
+Với n = "4" , k = 2 thì stairTraveling(n,k) = 3
+Giải thích: có 3 cách để di chuyển: 1 - 2 - 3 - 4 , 1 - 2 - 4 , 1 - 3 - 4
+Với n = "4" , k = 3 thì stairTraveling(n,k) = 4
+Giải thích: có 4 cách để di chuyển: 1 - 2 - 3 - 4 , 1 - 2 - 4 , 1 - 3 - 4 , 1 - 4 
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy] 0.1 giây với C++, 0.6 giây với java và C#, 0.8 giây với Python, Go và JavaScript.
+[Đầu vào] String n, int k
+        1 ≤ n.length ≤ 5
+        1 ≤ k ≤ min(n.length,5)
+
+[Đầu ra] String
+Là số cách thỏa mãn yêu cầu (biểu thị dưới dạng chuỗi ký tự), đầu vào đảm bảo luôn có kết quả đầu ra.
+Link :
+https://codelearn.io/training/detail/1771944
