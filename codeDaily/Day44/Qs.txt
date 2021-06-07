@@ -1,0 +1,23 @@
+Hoàng và Linh chơi một trò chơi như sau: Hoàng sẽ đưa ra một xâu các chữ số và yêu cầu Linh phải chọn các chữ số trong xâu đó để ghép thành một số nguyên tố, ghép được càng nhiều số nguyên tố thì điểm càng cao.
+
+Để tăng độ khó cho game, Hoàng sẽ đưa ra mảng s chứa các chuỗi chữ số và với mỗi chuỗi Linh phải tìm ra số số nguyên tố lớn nhất có thể ghép được.
+
+Ví dụ:
+
+Với s = ["32","373"], thì countPrime(s)=[3,7]. Giải thích:
+Với "32" thì có 3 số nguyên tố có thế ghép được là 2, 3, 23.
+Với "373" thì có 7 số nguyên tố có thế ghép được là 3, 7, 37, 337, 373, 733.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+
+[Đầu vào] Array of Strings: s
+0 ≤ s.size() ≤ 10.
+0 ≤ s[].size() ≤ 7.
+
+[Đầu ra] Array of Integers
+Mỗi phần tử là số số nguyên tố ghép được từ chuỗi tương ứng trong mảng.
+
+
+Link :
+https://codelearn.io/training/detail/570163
