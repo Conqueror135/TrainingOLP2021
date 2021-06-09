@@ -1,0 +1,27 @@
+Cấp số cộng là một dãy số, trong đó kể từ số hạng thứ hai trở đi, 
+mỗi số hạng đều bằng số hạng đứng ngay trước nó cộng với hằng số d (công sai). 
+Ví dụ [3, 5, 7, 9] là một cấp số cộng với công sai là d = 2.
+
+Cho mảng các số nguyên arr, bạn hãy tìm dãy con dài nhất (các phần tử không nhất thiết phải liên tiếp nhau) 
+mà tạo thành một cấp số cộng với công sai d. Trả về độ dài của dãy con đó.
+
+Ví dụ:
+
+Với arr = [1, 2, 4, 7, 8, 10, 8, 12, 13, 16] và d = 3 thì longestArithmeticProgression(arr, d) = 6.
+
+Ta có dãy con dài nhất là: [1, 4, 7, 10, 13, 16].
+
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+
+[Đầu vào] Array.Integer arr
+1 <= arr.length <= 10^5
+1 <= arr[i] <= 10^6
+Integer d
+1 <= d <= 10^5
+
+[Đầu ra] Integer
+
+Link:
+https://codelearn.io/training/detail/1855912
