@@ -1,0 +1,29 @@
+Sau khi từ kì thi chọn đội tuyển trở về, GPN được thầy HĐP thưởng cho một chầu shushi vì đạt được thành tính khá cao. Hai người đưa nhau đến cửa hàng shushi mới mở của đầu bếp Kat Bongo, một đầu bếp ngoài kĩ năng nấu ăn điêu luyện còn có sở thích nghĩ ra những đề code hóc bua từ chính những món ăn của mình.
+
+Vì muốn biết độ "khủng" của GPN đạt đến mức nào, Kat quyết định làm một thanh shushi dài rồi chia ra từng miếng nhỏ, mỗi miếng sẽ có một chỉ số "ngon miệng" k. Mỗi miếng shushi được ăn vào sẽ khiến độ vui vẻ của GPN tăng lên k điểm, đồng thời tăng độ ngon cho toàn bộ những miếng shushi khác lên k điểm. Ví dụ với đĩa shushi có các chỉ số ngon miệng là {1,0,1}:
+
+Ăn miếng thứ 1, độ ngon sẽ tăng lên thành {_,1,2};
+Ăn tiếp miếng thứ 3, độ ngon sẽ tăng lên thành {_,3,_};
+Ăn nốt miếng còn lại, tổng độ ngon là 1 + 2 + 3 = 6.
+Kat đố GPN tổng độ ngon lớn nhất có thể đạt tới là bao nhiêu. Vì không muốn làm thầy HĐP thất vọng, nhưng bản thân cũng rất lười code, GPN nhờ bạn tìm ra tổng độ ngon miệng lớn nhất có thể đạt được từ đĩa shushi của Kat.
+
+Cho 1 xâu kí tự shushi gồm các số 0 và 1 là độ ngon khởi đầu của thanh shushi. Ví dụ: 101 có nghĩa là miếng thứ 1 và 3 có độ ngon 1, miếng thứ 2 có độ ngon 0. Trả về 1 số nguyên duy nhất là tổng độ ngon lớn nhất của thanh shushi.
+
+Vì kết quả có thể lớn nên hãy trả về kết quả mod 10^9 + 7.
+
+Ví dụ:
+
+Với shushi = "101" thì maxDeliciousness = 6;
+Ăn miếng thứ 1, độ ngon sẽ tăng lên thành {_,1,2};
+Ăn tiếp miếng thứ 3, độ ngon sẽ tăng lên thành {_,3,_};
+Ăn nốt miếng còn lại, tổng độ ngon là 1 + 2 + 3 = 6.
+Đầu vào/Đầu ra:
+
+[Thời gian] 0.2s với C++, 1.2s với Java và C#, 1.6s với Python, Go và JavaScript.
+[Đầu vào] String shushi
+Độ ngon khởi điểm của thanh shushi.
+1 ≤ shushi.length() ≤ 10^9
+Đảm bảo các kí tự chỉ bao gồm các số 0 và 1.
+[Đầu ra] Integer
+Tổng độ ngon tối đa. Kết quả lấy dư cho 10^9 + 7
+Link : https://codelearn.io/training/detail/407915
