@@ -1,0 +1,16 @@
+Cho một số nguyên n. Hãy tìm số lượng các số từ 1 đến n mà không chia hết cho bất kỳ số nào trong khoảng [2, 10].
+
+Ví dụ:
+
+Với n=11 thì countNumbersNotDivisibleFromTwoToTen(n)=2.
+Chỉ có 2 số là 1 và 11 là không chia hết cho bất kì số nào từ 2 đến 10.
+Với n=10 thì countNumbersNotDivisibleFromTwoToTen(n)=1.
+Chỉ có 1 số thỏa mãn là số 1.
+Đầu ra/Đầu vào:
+
+[Thời gian chạy] 0.5 giây với C++, 3 giây với Java và C#, 4 giây vs Python và Js
+[Đầu vào] integer n
+1<=n<=10^18
+[Đầu ra] integer
+Số lượng các số từ 1 đến n mà không chia hết cho bất kỳ số nào trong khoảng [2, 10]
+link: https://codelearn.io/training/detail/173860
