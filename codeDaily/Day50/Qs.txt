@@ -1,0 +1,27 @@
+Vào năm 14789654, chiến tranh thế giới thứ III nổ ra. Chiến trường được biểu diễn bằng hệ trục tọa độ Oxy. Cả thế giới chia làm hai phe, phe thích kẹo và phe thích bánh. Phe thích kẹo lúc này đã có trong tay loại vũ khí tân tiến bậc nhất vũ trụ - robot Pink (P). Phe thích bánh nổi tiếng với các đặc vụ, trong đó có một đặc vụ giỏi nhất - Agent P (AP). AP đã đột nhập vào trụ sở phe thích kẹo và lấy cắp được bản thiết kế của P. Nhưng vì không đủ vật liệu nên họ không thể chế tạo được Pink v2, nên họ chỉ có thể chế được một khẩu súng phá hủy robot Pink với tên gọi NoPink (NP), súng NP sẽ phá hủy robot P nếu nó đi vào phạm vi hình tròn bán kính R xung quanh NP. Ngoài ra phe thích bánh còn biết được robot P có đặc tính nếu đang ở tọa độ (x; y) thì sẽ di chuyển sang vị trí ((x + y) / 2; 2xy / (x + y)). Trụ sở phe thích bánh ở gốc tọa độ O(0; 0) nên họ cũng đặt súng NP tại đó. Vì muốn thử nghiệm súng nên phe thích bánh muốn kiểm tra nếu phe thích kẹo đặt robot P tại vị trí (robot[i][0]; robot[i][1]) và bán kính hoạt động của NP là robot[i][2] thì P đó có bị tiêu diệt không.
+
+Trả về "DEAD" nếu P bị tiêu diệt.
+Trả về "ALIVE" nếu P không bị tiêu diệt.
+Để tiết kiệm thời gian nên phe thích bánh muốn thử một lần nhiều trường hợp. Bạn hãy giúp phe thích bánh nhé!
+
+Ví dụ:
+
+robot = [[1,1,3],[3,4,3]] => Kết quả là ["DEAD","ALIVE"].
+Thử nghiệm 1: robot P1 đã đứng trong vùng hoạt động của súng NP ngay từ ban đầu.
+Thử nghiệm 2: với cách đi như trên thì robot P2 luôn không đi vào vùng hoạt động của súng NP.
+
+
+Đầu vào/Đầu ra
+
+[Thời gian chạy] 0.2 giây với C++, 1.2 giây với Java, C#, 1.6 giây với Python, Js, Go
+
+[Đầu vào] Matrix Of Integers: robot
+
+1 ≤ robot.length ≤ 100000
+
+robot[i].length = 3
+
+1 ≤ robot[i][j] ≤ 1000000000
+
+[Đầu ra] Array Of String: Là kết quả bài toán
+Link : https://codelearn.io/training/detail/538604
