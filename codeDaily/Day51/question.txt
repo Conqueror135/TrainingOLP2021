@@ -1,0 +1,18 @@
+Cho hai số nguyên dương bất kỳ là n và k. Bạn hãy tìm số dương m lớn nhất sao cho thỏa mãn yêu cầu sau: n! chia hết cho k^m.
+
+Ví dụ:
+
+Với n = 6, k = 6 thì powDivisor(n, k) = 2.
+Ta có 6! = 720, 6^2 = 36 => 720 / 36 = 20.
+Với n = 10, k = 12 thì powDivisor(n, k) = 4.
+Ta có 10! = 3628800, 12^4 = 20736 => 3628800 / 20736 = 175.
+Đầu vào/ Đầu ra:
+
+Giới hạn thời gian chạy: 0.5 giây với C++, 3 giây với Java và C#, 4 giây với Python, GO và Js.
+[Đầu vào] Integer n, k
+1 <= n <= 10^6
+2 <= k <= 10^6
+[Đầu ra] Integer
+
+Link:
+https://codelearn.io/training/detail/1965625
