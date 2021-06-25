@@ -1,0 +1,23 @@
+Gia đình Bình muốn vựa 1 ít gạo để bán sinh lời. Giả sử bằng cách nào đó Bình biết được giá cả thị trường trong nay mai được biểu diễn bằng mảng các số nguyên tượng trưng cho giá cả. Biết mỗi ngày gia đình Bình chỉ thực hiện 1 giao dịch mua hoặc bán. Hãy tìm khoản lợi nhuận tối đa từ việc vựa trên.
+
+Đề bài: Cho mảng số nguyên market với market[i] là giá gạo trong ngày thứ i. Trả về lợi nhuận tối đa từ việc mua bán, nếu không có lợi nhuận thì trả về 0, tức không giao dịch gì cả.
+
+Ví dụ: 
++) Với market = [4, 1, 2, 7, 5] thì đầu ra  profitFromTrading(market) = 9. Vì ta sẽ mua vào ngày 1 (market[1] = 1), bán vào  ngày 3 (market[3] = 7), mua vào ngày 2 (market[2] = 2) và bán vào  ngày 4 (market[4] = 5). Tổng lợi nhuận là : (7-1) + (5-2) = 9
+
++) Với market = [9, 7, 5, 4, 1]. Gía gạo giảm mạnh nêú mua bán chỉ có tổn thất vốn nên đầu ra profitFromTrading(market) = 0. 
+
+Đầu vào / đầu ra:
+
+[Giới hạn thời gian] 0.5s với C++, 3s với Java & C#, 4s Python, GO và Js.
+
+[Đầu vào] array.integer market
+Mảng chứa giá gạo các ngày.
+2≤market.size()≤106
+1≤market[i]≤106
+
+[Đầu ra] integer
+
+  Lợi nhuận tối đa hoặc trả về 0 nếu không có lợi nhuận.
+  Link:
+  https://codelearn.io/training/detail/547095
