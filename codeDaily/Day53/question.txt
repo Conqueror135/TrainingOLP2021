@@ -1,0 +1,22 @@
+Đoàn mới đi công tác bằng trực thăng về, qua miền đồng bằng, Đoàn thấy các miền ruộng bạt ngàn được ngăn cách nhau bởi ranh giới hay còn gọi là "bờ". 
+Đoàn lại liên tưởng tới bài toán: 
+    Trong mặt phẳng, cho n đường thẳng, các đường thẳng này có thể cắt nhau và chia đường thẳng thành các phần mặt phẳng riêng biệt mà "bờ" chính là các đường thẳng hoặc một phần của chúng, 
+    vậy liệu với n đường thẳng cho trước, sẽ tạo ra được tối đa bao nhiều phần mặt phẳng riêng biệt như vậy? Đoàn suy nghĩ hồi lâu vẫn chưa ra, bạn hãy thử giúp anh ấy xem sao.
+
+Ví dụ: 
+
+Với n = 3, thì kết quả sẽ là numberOfLine(3) = 7
+Với hình bên dưới ta có thể thấy rằng các đường thẳng (màu đỏ, hồng và đen) cắt nhau và chia mặt phẳng ra 7 phần, 
+7 cũng chính là số phần riêng biệt tối đa mà mặt phẳng có thể bị chia ra bởi 3 đường thẳng cắt nhau.
+
+
+Đầu vào/Đầu ra:
+
+[Thời gian] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] integer n
+0 <= n <= 100000.
+[Đầu ra] long
+Số đường phần mặt phẳng phân biệt lớn nhất được xác định bởi các giao điểm của n đường thẳng trên mặt phẳng.
+
+Link:
+https://codelearn.io/training/detail/316699
