@@ -1,0 +1,18 @@
+Bạn có một hình hộp chữ nhật có kích thước nguyên và biết được diện tích của 3 mặt có chung 1 đỉnh. Nhiệm vụ của bạn là tính tổng tất cả các cạnh của hình hộp chữ nhật này.
+
+Káº¿t quáº£ hÃ¬nh áº£nh cho HÃ¬nh há»p chá»¯ nháº­t
+
+Ví dụ:
+
+Với s1 = 1, s2 = 1, s3 = 1 thì rectangular(s1, s2, s3) = 12
+Ba mặt đều có diện tích là 1 nên tất cả các cạnh sẽ có độ dài là 1, mà hình hộp chữ nhật có tổng cộng 12 cạnh, suy ra kết quả là 12.
+Đầu vào/đầu ra:
+
+Thời gian chạy: 0.5s
+Đầu vào: integer s1, s2, s3
+diện tích ba mặt chung đỉnh của hình hộp chữ nhật
+(1 ≤ s1, s2, s3 ≤ 10^4)
+Đầu ra: integer
+tổng tất cả các cạnh của hình hộp chữ nhật
+Link : 
+https://codelearn.io/training/detail/125084
