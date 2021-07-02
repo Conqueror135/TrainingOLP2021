@@ -1,0 +1,32 @@
+Game TicTacToe là một game phiên bản thu gọn của cờ caro với board game là một bảng 3 x 3. 
+Game gồm 2 người chơi, mỗi lượt 1 người chơi sẽ đánh dấu vào ô trong bảng. 
+Người chơi thứ nhất sẽ đánh dấu 'x', còn người chơi thứ hai sẽ đánh dấu 'o'.
+
+Game có người chiến thắng khi 1 người đánh dấu được 3 dấu thẳng hàng trước (có thể dọc, ngang hoặc chéo) hoặc 
+hòa khi không ai có thể hoàn thành 3 dấu thẳng hàng.
+
+Ban đầu board game là một ma trận 3 x 3 với các ô là các số được đánh lần lượt từ 1 đến 9, 
+sau mỗi lượt 1 ô sẽ được thay thế bằng dấu tick bởi người chơi 1 hoặc 2 như đã nêu ở trên.
+
+Cho một dãy select thể hiện các lượt chọn ô để đánh theo thứ tự của 2 người chơi 
+(s[0] là lượt của người chơi 1, s[1] là của người chơi 2,...), yêu cầu của bạn là kiểm tra tình trạng của trò chơi (ai thắng, hòa hay chưa kết thúc). 
+Nếu người chơi 1 thắng thì trả về 1, người chơi 2 thắng trả về 2, hòa trả về 0, chưa kết thúc trả về -1.
+Hãy xem ví dụ để dễ hiểu hơn.
+
+Ví dụ:
+
+Với select = [1, 2, 3, 4, 5, 6, 7] thì ticTacToe(select) = 1.
+Với select = [2, 3, 6, 5, 1] thì ticTacToe(select) = -1.
+Trò chơi chưa kết thúc. 
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] array of integer select trong đó không có phần tử giống nhau.
+0 ≤ size of select ≤ 9.
+1 ≤ select[i] ≤ 9.
+[Đầu ra] integer.
+Trạng thái của trò chơi.
+
+Link:
+https://codelearn.io/training/detail/976137
