@@ -1,0 +1,23 @@
+Có hai công ty A và B, mỗi công ty có n phân xưởng nằm rải rác trong thành phố. 
+Giả sử các phân xưởng này nằm trên một trục tọa độ dài vô tận và tọa độ phân xưởng thứ i là điểm có tọa độ xi. 
+Với hai điểm x1 và x2. Định nghĩa khoảng cách giữa hai điểm là |x1-x2|.
+
+Hãy tìm khoảng cách ngắn nhất giữa một phân xưởng của công ty A và một phân xưởng của công ty B trong số các phân xưởng đã cho.
+
+Ví dụ:
+
+Với n=1 và A có phân xưởng ở tọa độ x=2, B có phân xưởng ở tọa độ x=6 thì MinDistance2Point(vector A)=4
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy] 1 giây với C++, 6 giây với Java và C#, 8 giây với Python, Js, Go
+[Đầu vào] array A
+    A[0]=n
+    n phần tử tiếp theo là tọa độ phân xưởng của công ty A
+    n phần tử tiếp theo là tọa độ phân xưởng của công ty B
+    1<=n<=10^5
+    1<=xi<=10^9
+[Đầu ra] int
+Khoảng cách nhỏ nhất giữa 2 phân xưởng bất kỳ thỏa một phân xưởng của công ty A, một phân xưởng của công ty B
+
+Link:
+https://codelearn.io/training/detail/521749
