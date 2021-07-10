@@ -1,0 +1,18 @@
+Cho một mảnh vườn kích thước MxN được chia thành M hàng, mỗi hàng có N ô để trồng hoa. Ở mỗi ô ta có thể trồng một loài hoa có một trong 7 màu sau đây: đỏ, cam, vàng, lục, lam, chàm, tím. Để đảm bảo tính thẩm mĩ, tất cả các ô đều phải trồng hoa và ở mỗi hàng cần có ít nhất k màu hoa khác nhau.
+
+Yêu cầu:
+
+Hãy đếm số cách trồng hoa khác nhau mà vẫn đảm bảo tính thẩm mĩ. Hai cách trồng được gọi là khác nhau nếu có ít nhất một ô khác màu.
+
+ Chú ý : Vì đề kết quả đề bài rất lớn nên hãy lấy số dư của phép chia kết quả với 1e4+7.
+
+Ví dụ:
+
+Với M=1,N=7,k=7, thì solve(1,7,7)=5040.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s (C++), 3s (Java, C#), 4s (Python, JavaScript)
+[Đầu vào] 3 integer m,n,k. (m,n<10^9,k<=7)
+[Đầu ra] integer :đáp án thỏa mãn.
+Link :
+https://codelearn.io/training/detail/523940
