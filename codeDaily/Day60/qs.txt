@@ -1,0 +1,18 @@
+Dãy số 0, 1, 1, 2, 3, 5, 8, 13, ... được gọi là một dãy Fibonacci, được đặt tên theo nhà toán học người Ý, Leonardo Fibonacci. Mà quy tắc của dãy này chính là mỗi phần tử luôn bằng tổng hai phần tử trước nó, bắt đầu từ số 0 và số 1.
+
+Bài toán đặt ra ở đây là, cho một số nguyên n, hãy tách n thành tổng của nhiều số Fibonacii không trùng lặp nhất có thể và sau đó sắp xếp chúng theo thứ tự tăng dần. Nếu không có, hãy trả về [-1].
+
+Ví dụ:
+
+Với n = 8 thì fiboSum(n) = [1, 2, 5].
+Giải thích: 8 = 1 + 2 + 5
+Với n = 3 thì fiboSum(n) = [1, 2].
+Giải thích: 3 = 1 + 2
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+[Đầu vào] Long Long n
+0 ≤ n ≤ 10^15
+[Đầu ra] Array of Longs
+Link :
+https://codelearn.io/training/detail/5335221
