@@ -1,0 +1,25 @@
+Một chiếc dãy cầu thang bậc n là dãy gồm các số nguyên dương lên tiếp từ k đến k + n-1. 
+Ví dụ dãy [6, 7, 8] là dãy cầu thang bậc 3.
+
+Cho dãy số nguyên dương a, bạn có thể thay thế giá trị của a[i] bằng một số nguyên dương khác có giá trị không vượt quá quá a[i], số lần thay thế là vô hạn.
+
+Hãy biến đổi dãy a sao cho tồn tại dãy con liên tiếp là dãy bậc thang và là dãy có bậc cao nhất có thể, hãy đưa ra bậc của dãy bậc thang đó.
+
+Ví dụ:
+
+Với a = [3, 3, 2, 4, 5] thì stairs(a) = 3.
+Giải thích: Ta sẽ biến đổi dãy a thành [3, 1, 2, 3, 4], dãy con là dãy bậc thang sẽ là [1, 2, 3, 4] và bậc của nó là 4.
+Với a = [3, 2, 1] thì stairs(a) = 2.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Array: Integer: a.
+1 ≤ a.size()≤ 10^5.
+1 ≤ a[i] ≤ 10^9
+
+[Đầu ra] Integer.
+Số nguyên duy nhất là kết quả bài toán.
+
+Link:
+https://codelearn.io/training/detail/874051
