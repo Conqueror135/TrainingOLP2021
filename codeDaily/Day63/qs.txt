@@ -1,0 +1,25 @@
+Hãy tính tổng của tất các số chỗ trong khoảng [0, n] mà chia hết cho a.
+
+Do kết quả có thể rất lớn nên hãy trả về phần dư của 10^9 + 7.
+
+Do số a và n sẽ rất lớn nên được biểu diễn ở dạng chuỗi.
+
+Ví dụ:
+
+Với a = "2", n = "10" thì sumDivOfA(a, n) = 30;
+
+Các số thỏa mãn là: 2, 4, 6 ,8, 10.
+
+Đầu ra/ Đầu vào:
+
+[Thời gian chạy] 0.1s với C++, 0.6s với Java và C#, 0.8s với Python, Go và JavaScript.
+[Đầu vào] 
+String  a
+1 <= a.length <= 10^5
+a != "0"
+String  n
+1 <= n.length <= 10^5
+[Đầu ra] Integer
+
+Link:
+https://codelearn.io/training/detail/693393
