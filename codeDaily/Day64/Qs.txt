@@ -1,0 +1,21 @@
+Công ty X đang xây dựng một công trình trong n ngày và mỗi ngày cần k công nhân. Có m công ty cho thuê công nhân hire. Mỗi công ty dẽ được biểu diễn dưới dạng mảng [l,r,c,p]. Công ty thứ i sẽ có chính sách cho thuê công nhân từ ngày l đến ngày r, mỗi ngày sẽ cho thuê tối đa c công nhân với giá p đồng trên 1 công nhân. Nếu ngày thứ i không thuê đủ k công nhân thì công ty sẽ thuê hết tất cả các công nhân có thể thuê. Công ty muốn tìm ra tổng số tiền bỏ ra thuê công nhân là ít nhất.
+
+Ví dụ:
+
+Với hire = [[2,5,3,1],[1,4,5,3],[1,1,5,1],[3,4,5,6]] và n=5 và k=5 thì Building(hire,n,k) = 35 
+Ngày 1: 5 * 1 = 5
+Ngày 2: 3 * 1 + 2 * 3 = 9
+Ngày 3: 3 * 1 + 2 * 3 = 9
+Ngày 4: 3 * 1 + 2 * 3 = 9
+Ngày 5: 3 * 1 = 3
+Tổng số tiền phải trả : 35
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy]: 5s với C++, 30s với Java và C#, 40s với Python, GO và Js.
+[Đầu vào] Matrix of integer hire, integer n, integer k.
+1 ≤ hire.size() ≤ 200000
+1 ≤ n, k ≤ 1000000
+hire[i].size() = 4
+[Đầu ra] Long
+Link :
+https://codelearn.io/training/detail/2556950
