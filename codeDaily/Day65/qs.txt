@@ -1,0 +1,25 @@
+Hoạt động của não bộ con người vẫn chứa đựng nhiều điều bí ẩn thu hút sự chú ý của các nhà khoa học. 
+Có những người có khả năng tính toán nhanh hơn cả những máy tính hiện đại nhất. 
+Một số người có khả năng như vậy được mời đến trung tâm nghiên cứu khoa học tham gia vào chương trình “Khám phá hoạt động của não bộ”. 
+Các thiết bị tiên tiến nhất sẽ đo các tham số của não bộ khi người ta suy nghĩ. 
+Trong một thí nghiệm người tham gia quan sát nhanh dãy số nguyên dương a1, a2, . . ., an (các số không nhất thiết phải khác nhau) và cho biết, 
+nếu cần phải loại bỏ một số trong dãy thì cần loại số thứ mấy để các số còn lại cho ước số chung là lớn nhất, 
+đồng thời cho biết, ước số chung lớn nhất nhận được sẽ là bao nhiêu.
+
+Một máy tính sẽ tiến hành kiểm tra tính đúng đắn của kết quả. Bạn phải lập trình để kiểm tra kết quả và lưu ý rằng không được để thua con người quá xa về thời gian thực hiện!
+
+Ví dụ:
+
+Với a =[6, 12, 8] cần loại số thứ 3 tức là số 8 thì ước số chung nhận được từ các số còn lại sẽ là 6.
+Với a=[2,2,3,4,6] thì PowerOfBrain=[3,2]
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 1s với C++, 6s với Java, C#, 8s với Python, Js, Go
+[Đầu vào] Arrays a
+2 ≤ a.size ≤ 10^4
+1 ≤ a[i] ≤ 10^9
+[Đầu ra] Integer
+Một mảng chứa 2 phần tử  gồm số thứ tự nhỏ nhất của phần tử cần xóa( lưu ý stt bắt đầu từ 1) và UCLN của mảng sau khi xóa.
+
+Link:
+https://codelearn.io/training/detail/759575
