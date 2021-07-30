@@ -1,0 +1,32 @@
+vietcv Trung bình 160 Điểm
+Giới hạn ký tự: 5000
+Cho một mảng chứa các số nguyên không âm
+
+Bạn có thể tạo ra biểu thức dạng A+B+C+...=X với các luật như sau:
+
+Xếp các số nguyên đã cho cạnh nhau để tạo ra số mới, nhưng số 0 không đc ghép đằng trước một số khác (ví dụ số 12 và số 0 có thể ghép thành số 120, số 12 và 34 có thể ghép thành số 1234 hoặc 3412) Chú ý không đc xếp số này vào giữa số khác (Ví dụ 12 và 34 thì ko ghép đc thành số 1342)
+Được thêm 1 số dấu + vào giữa hai số nguyên (ko thêm dấu + vào giữa 1 số nguyên nào đó. Ví dụ sau khi ghép 12 với 34 thành số 1234 thì ko đc thêm dấu + thành 1+234, hoặc không đc thêm + vào giữa số 12 thành 1+2, chỉ đc thêm dấu + vào giữa 12 và 34 thành 12 + 34)
+Trong biểu thức chỉ chứa duy nhất 1 dấu = 
+Biểu thức phải chứa ít nhất 1 dấu +
+Hãy sử dụng các số đã cho (mỗi số phải và chỉ được dùng 1 lần) để tạo ra biểu thức có giá trị lớn nhất. Nếu không, hãy trả ra số -1
+
+Ví dụ:
+
+Với arr=[1, 2, 3], kết quả maximumExpression(arr)=3
+Bạn có thể tạo ra biểu thức 1+2=3
+Với arr=[1,1,1], kết quả maximumExpression(arr)=-1
+Bạn không thể tạo ra biểu thức nào
+Với arr=[1,2,3,24], kết quả maximumExpression(arr)=24
+Bạn có thể tạo ra biểu thức 21+3=24
+Đầu ra/đầu vào:
+
+Thời gian chạy: 1s
+Đầu vào: array.interger arr
+Mảng chứa các số nguyên không âm
+0 <= arr.length() <= 15
+0 <= arr[i] < 1000
+Đầu ra: integer64
+Số nguyên thể hiện kết quả lớn nhất của biểu thức, nếu không thì hãy trả ra số -1
+Đảm bảo đáp án nằm trong kiểu integer 64 bit (nếu có đáp án)
+Link : 
+https://codelearn.io/training/detail/82593
