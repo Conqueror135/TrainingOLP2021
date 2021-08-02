@@ -1,0 +1,20 @@
+Một số gọi là số đẹp nếu tất cả các chữ số trong số đó đều giống nhau. ví dụ 111, 22, 3 là các số đẹp.
+
+Cho số nguyên dương n, Hãy đưa ra số nguyên nhỏ nhất là số đẹp mà nó lớn hơn hoặc bằng n.
+
+Ví dụ:
+
+Với n = 111 thì nextNumber(n) = 111.
+Với n = 23 thì nextNumber(n) = 33.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Long: n
+1 ≤ n ≤ 10^15.
+
+[Đầu ra] Long
+Số nguyên nhỏ nhất là số đẹp mà nó lớn hơn hoặc bằng n.
+
+Link:
+https://codelearn.io/training/detail/975412
