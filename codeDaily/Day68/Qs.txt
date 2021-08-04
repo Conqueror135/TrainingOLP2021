@@ -1,0 +1,27 @@
+Cho 2 số nguyên a và b (b lớn hơn a)
+
+Trả về tổng của các số lẻ ở giữa 2 số đã cho.
+
+Ví dụ
+
+Với a = 3 và b = 9, đầu ra là
+sumofoddnumbers(a,b)=12.
+Có 2 số lẻ là 5 và 7 ở giữa 3 và 9, tổng của 2 số này là 5 +  7 = 12
+Đầu vào/Đầu ra
+
+[giới hạn thời gian chạy] 0.5 giây 
+
+[đầu vào] integer a
+Số nguyên đầu tiên
+Điều kiện tiền đề:
+-1 < a < 1e8.
+
+[đầu vào] integer b
+Số nguyên thứ hai
+Điều kiện tiền đề:
+0 < b < 1e8 + 1.
+
+[đầu ra] integer
+Trả về phần dư của kết quả chia cho 10000007
+Link :
+https://codelearn.io/training/detail/34670
