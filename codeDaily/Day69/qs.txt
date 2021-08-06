@@ -1,0 +1,22 @@
+This problem is similar to onesAndZeros but this time, 
+you will choose three consecutive elements of the same value and remove them from the string to obtain a new string of length n-3. 
+Given a string s ,after applying the described operation several times, what is the minimum length of the string that can remain ?
+
+Example
+
+For s = "1000", the output should be onesAndZeros(s) = 1.
+By removing three consecutive zeros, we will have string s with minimum length equal to 1.
+Input/Output
+
+[execution time limit] 0.5 second
+
+[input] string s
+
+Guaranteed constraints:
+1 ≤ s.length ≤ 10^5.
+
+[output] int
+The minimum length of the string that may remain after applying the described operations several times.
+
+Link:
+https://codelearn.io/training/detail/17060
