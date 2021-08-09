@@ -1,0 +1,46 @@
+A matrix is a 2D array of numbers.
+
+Matrices can be multiplied by the following rule: if matrix A is of size m × n and matrix B is of size n × r, their product A × B will be of size m × r. Note, that it is possible to multiply two matrices only if the number of columns in the first matrix equals the number of rows in the second one.
+
+(In this challenge you don't need to actually multiply any matrices.)
+
+Matrix multiplication is an associativeoperation, so A × B × C can be grouped in any way with parentheses as long as the order is preserved: A × B × C = (A × B) × C = A × (B × C).
+
+The number of operations necessary to multiply two matrices of dimensions m × n and n × r equals m * n * r. Given a set of N matrices, such that the number of columns in the ith matrix n[i] equals the number of rows in the (i + 1)th matrix m[i + 1], find the minimum number of operations required to compute their product by grouping the factors with parentheses.
+
+Example
+
+For m = [10, 100, 5] and n = [100, 5, 50], the output should be
+LongMatrixProduct(m, n) = 7500.
+Let the product be written as A × B × C, where A is of size 10 × 100, B is 100 × 5, and C is 5 × 50.
+Calculating their product as (A × B) × C will take just 10 * 100 * 5 + 10 * 5 * 50 = 7500 operations, and calculating it as A × (B × C) will require 100 * 5 * 50 + 10 * 100 * 50 = 75000. Thus, the answer is 7500.
+Input/Output
+
+[execution time limit] 0.5 seconds
+
+[input] array.integer m
+
+Array of integers, where m[i] is the number of rows in the ith matrix.
+
+Constraints:
+
+3 ≤ m.length ≤ 100,
+
+1 ≤ m[i] ≤ 104.
+
+[input] array.integer n
+
+Array of integers, where n[i] is the number of columns in the ith matrix.
+
+Constraints:
+
+n.length = m.length,
+
+1 ≤ n[i] ≤ 104,
+
+n[i] = m[i + 1], i ≤ n.length - 1.
+
+[output] integer
+The minimum number of operations required to compute the product of matrices.
+Link :
+https://codelearn.io/training/detail/20549
