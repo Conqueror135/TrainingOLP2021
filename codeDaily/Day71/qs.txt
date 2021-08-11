@@ -1,0 +1,18 @@
+Cho một chuỗi ký tự bất kỳ. Ký tự nào trong chuỗi xuất hiện nhiều hơn 1 lần sẽ mã hóa thành "#". 
+Ký tự nào xuất hiện đúng 1 lần sẽ mã hóa thành "*". Các ký tự in hoa và thường là như nhau.
+
+Ví dụ:
+
+Với code= "Hello" thì Duplicode(code) = "**##*"
+Với code= "CodeLearn" thì Duplicode(code) = "***#*#***" 
+Với code= "**code*Code**" thì Duplicode(code) = "#############" 
+Đầu vào/Đầu ra :
+
+[Giới hạn thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript
+[Đầu vào] string code
+0 < code.length < 10^5
+[Đầu ra] string
+Chuỗi đã mã hóa.
+
+Link:
+https://codelearn.io/training/detail/587202
