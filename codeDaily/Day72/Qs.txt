@@ -1,0 +1,37 @@
+Chắc bạn nào cũng biết trò chơi "Ô chữ" rồi nhỉ?
+
+Cho bạn một mảng strings thể hiện một bảng 2 chiều board và một danh sách các từ trong từ điển words, hãy tìm các từ trong từ điển xuất hiện trong bảng.
+
+Một từ được xác định bằng cách nối liên tiếp các kí tự ở các ô kề nhau theo chiều ngang hoặc chiều dọc (ko tính đường chéo), trong đó không có kí tự ở cùng 1 ô được sử dụng 2 lần
+
+Ví dụ:
+
+Với board = ["CARN", "ODAE", "IEKL","IFPT" ], words = ["CODE","LEARN","FPT", "SOFTWARE", "CODEWAR", "CDA"] kết quả wordPuzzle(board, words) = ["CODE", "FPT", "LEARN"]
+Có 3 từ xuất hiện trong bảng board được bôi màu như hình dưới đây
+
+
+
+Từ "CDA" không hợp lệ, do không thể ghép kí tự C vs kí tự D vì 2 ô chứa 2 kí tự này ko kề nhau theo chiều ngang hoặc chiều dọc
+
+Đầu ra/Đầu vào:
+
+[Thời gian chạy] 1s
+
+[Đầu vào] Array.string board
+Mảng các xâu có độ dài bằng nhau, chỉ chứa các kí tự in hoa. Mỗi xâu thể hiện một hàng trong bảng
+
+Điều kiện:
+0 ≤ board.length ≤ 30
+0 ≤ board[i].length ≤ 30
+
+[Đầu vào] Array.string words
+Mảng các xâu trong từ điển, chỉ chứa các kí tự in hoa
+
+Điều kiện:
+0 ≤ words.length ≤ 100
+1 ≤ words[i].length ≤ 30
+
+[Đầu ra] Array.string
+Danh sách các từ trong từ điển có thể tìm thấy trong bảng, theo thứ tự từ điển
+Link :
+https://codelearn.io/training/detail/18001
