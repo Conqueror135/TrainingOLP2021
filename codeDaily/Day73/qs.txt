@@ -1,0 +1,24 @@
+
+Sau khi bị bọn cướp bắt đi khi đang chở vàng trong hang, Alibaba liền bị dẫn đến trước mặt tên tướng cướp và tên này ra lệnh rằng vì Alibaba là người tốt bụng nên sẽ không giết mà còn cho lấy một ít vàng.
+
+Tên tướng cướp bày ra trước mặt Alibaba một dãy các thùng và bảo "Trong dãy thùng này mỗi một thùng có một khối lượng khác nhau và chỉ có một số thùng chứa đầy vàng còn một số thùng không chứa vàng. 
+Nhà ngươi được quyền chọn lấy một đoạn liên tiếp các thùng bất kì nào và lấy số vàng trong các thùng trong đoạn đó sau khi đã cho vàng vào đầy các thùng không chứa vàng trong đoạn đó".
+
+Cho dãy các thùng ai với quy ước |ai| là kích thước của thùng thứ i, nếu ai > 0 tương ứng là thùng thứ i chứa đầy vàng, và nếu ai < 0 thì thùng thứ i không chứa vàng. 
+Hãy giúp Alibaba chọn đoạn mà anh ta có thể có được số vàng lớn nhất. Nếu không thể chọn ra bất kì đoạn nào thì trả về -1.
+
+Ví dụ:
+
+Với a = [4,-5,2,3,-4,5,6,-8], các thùng có chỉ số 0,2,3,5 và 6 là các thùng chứa đầy vàng, còn các thùng 1,4 và 7 là những thùng không chứa vàng. 
+Nếu Alibaba chọn đoạn 0-3 thì anh ta sẽ có số vàng là 4. Nếu anh ta chọn đoạn 2-6 thì sẽ có số vàng là 12. Output takeMaxGold(a) = [2,6].
+Đầu ra/Đầu vào:
+
+[Thời gian chạy] 0.5s (C++), 3s (Java, C#), 4s (Python, JavaScript) 
+[Đầu vào] array.integer a
+1 ≤ a.size() ≤ 10^5
+
+[Đầu ra] array.integer
+Chỉ số bắt đầu và kết thúc của đoạn mà Alibaba chọn để có được số vàng lớn nhất. Nếu không có đoạn nào được chọn thì trả về -1.
+
+Link:
+https://codelearn.io/training/detail/414699
