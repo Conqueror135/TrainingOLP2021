@@ -1,0 +1,29 @@
+Cho một danh sách các xâu. Nhiệm vụ của bạn là tìm ra 1 xâu có độ dài nhỏ nhất mà không phải xâu con của bất kì xâu nào trong danh sách xâu đã cho. 
+Nếu có nhiều xâu thỏa mãn yêu cầu bài toán, trả về xâu có thứ tự từ điển nhỏ nhất. 
+
+1 xâu t là xâu con của xâu s nếu tại 1 vị trí k nào đó của s ta có:
+t[0] = s[k], t[1] = s[k+1],..., t[t.length-1] = s[k+t.length-1]
+
+Ví dụ aaa là xâu con của abaaa trong khi ab không phải là xâu con của acd.
+
+Ví dụ:
+
+Với listOfWords =["aaabacadaeafagah", "aiajakalamanaoap", "aqarasatauavawax", "awaxayaz"] thì kết quả là findSmallestString(listOfWords)="bb"
+Tất cả các xâu 1 kí tự từ a đến z đều có mặt ít nhất trong 1 xâu trong listOfWords. 
+Các xâu có 2 kí tự từ aa cho đến az cũng đều có mặt trong ít nhất 1 xâu của listOfWords. 
+Xâu bb là xâu nhỏ nhất không là xâu con của bất kì xâu nào trong listOfWord. 
+Đầu vào/Đầu ra:
+
+[Thời gian chạy tối đa] 0.5s (C++), 3s (Java,C#), 4s(Python,JavaScript)
+
+[Đầu vào] array.string listOfWords
+1 ≤ listOfWords.length ≤ 5*10^4
+1 ≤ listOfWords[i].length ≤ 100
+listOfWords[i][j] ∈ {'a' - 'z'}
+
+[Đầu ra] string
+
+Kết quả của bài toán. 
+
+Link:
+https://codelearn.io/training/detail/171141
