@@ -1,0 +1,29 @@
+Có một quân tượng trong cờ tướng đi lạc vào một bàn cờ vua. Bàn cờ vua có kích thước là 8×8, các dòng được đánh số từ 1 đến 8 theo thứ tự từ trên xuống dưới, 
+các cột được đánh số từ 1 đến 8 theo thứ tự từ trái qua phải.
+
+Quân tượng đi lạc đang nằm ở ô (x,y). Để có thể quay trở lại bàn cờ tướng, quân tượng phải tìm cách di chuyển đến một cổng thoát tại ô có tọa độ (tx,ty) trên bàn cờ vua. 
+Bạn hãy tính xem quân tượng phải di chuyển ít nhất bao nhiêu nước đi để đến được cổng thoát này, nếu không thể trả về -1. 
+Biết rằng quân tượng cờ tướng di chuyển theo đường chéo 2 ô một, từ tọa độ (x,y) có thể đi đến một trong bốn tọa độ (x-2,y-2), (x-2,y+2), (x+2,y-2), (x+2,y+2).
+
+
+
+Các tọa độ x,y,tx,ty theo thứ tự lưu trong mảng bs.
+
+Ví dụ:
+
+Với bs = [3,5,7,5], output bishops(bs) = 2. 
+Với bs = [1,1,2,1], output bishops(bs) = -1.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.1s (C++), 0.6s (Java, C#), 0.8s (Python, JavaScript, Go)
+[Đầu vào] array.integer bs
+   bs.length = 4
+
+   1 ≤ bs[i] ≤ 8
+
+[Đầu ra] integer
+    Nếu quân tượng không thể di chuyển đến cổng thoát, mãi mãi ở lại bàn cờ vua, trả về -1. Nếu quân tượng có thể di chuyển đến cổng thoát, 
+    trả về số bước di chuyển ít nhất.
+
+Link:
+https://codelearn.io/training/detail/537463
