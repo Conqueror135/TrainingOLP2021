@@ -1,0 +1,37 @@
+Cho ma trận vuông cấp n, các hàng và các cột đều được đánh số thứ tự từ 0. Ta ký hiệu giá trị ở ô hàng thứ i, cột j là a(i, j).
+
+Một cách chọn n ô (x, y) phân biệt được gọi là hợp lệ nếu như 2 ô được chọn bất kỳ thì đều không cùng hàng và không cùng cột. 
+Chi phí của một cách chọn hợp lệ là tích giá trị của các ô được chọn.
+
+Yêu cầu: Hãy tính chi phí lớn nhất trong tất cả các cách chọn hợp lệ. Vì kết quả có thể rất lớn, 
+    nên hãy trả về kết quả khi lấy phần dư cho số nguyên tố p với p = 1000000007 (10^9 + 7)
+
+Note: Kết quả trả về của mình là phần dư của chi phí lớn nhất cho số p = 1000000007 (10^9 + 7), 
+    chứ không phải là giá trị lớn nhất của chi phí khi lấy phần dư cho p 
+
+Ví dụ minh họa: 
+Giả sử có 2 chi phí mình tính được là 2p và (p + 1),
+    thì khi lấy phần dư cho p tương ứng là 0 và 1 thì đáp án chính xác của mình là 0 (là của 2p) chứ đáp án 1 (của p + 1) là không đúng.
+
+Ví dụ: 
+
+n=3, a=[[1,15,37], [42,8,25],[77,2,1]] thì maximumProduct2D(n, a) = 28875
+Giải thích: các ô mình chọn là (0, 1); (1, 2); (2, 0) với chi phí tương ứng là a(0, 1) * a(1, 2) * a(2, 0) = 15 * 25 * 77 = 28875
+n=2, a=[[15, 1],[33,42]] thì maximumProduct2D(n, a) = 620
+Giải thích: các ô mình chọn là (0, 0); (1, 1) với chi phí tương ứng là a(0, 0) * a(1, 1) = 15 * 42 = 630
+Đầu vào/Đầu ra:
+
+[Giới hạn thời gian chạy]: 0.5 giây với C++, 3 giây với Java và C#, 4s với Python, GO và Js.
+[Đầu vào] integer n:
+Kích thước của ma trận vuông 
+1 <= n <= 100
+[Đầu vào] matrix.integer: a
+a.size() = n
+a[i].size() = n
+1 <= a[i][j] <= 100
+[Đầu ra] integer
+Chi phí lớn nhất trong tất cả các cách chọn hợp lệ. 
+Vì kết quả có thể rất lớn, nên hãy trả về kết quả khi lấy phần dư cho số nguyên tố p với p = 1000000007 (10^9 + 7)
+
+Link:
+https://codelearn.io/training/detail/593000
