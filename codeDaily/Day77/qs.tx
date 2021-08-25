@@ -1,0 +1,30 @@
+Một dãy bằng nhau là dãy mà tất cả các phần tử đó đều bằng nhau.
+
+Hải có một phép biến đổi như sau: có thể tăng hoặc giảm một phần tử bất kỳ trong dãy đi 1 đơn vị.
+
+Cho trước một dãy a gồm các số nguyên dương. Hãy đưa ra số lần biến đổi ít nhất để biến đổi dãy a thành dãy bằng nhau.
+
+Ví dụ:
+
+Với a = [1,2,3], thì arrayEqual(a)=2.
+Giải thích:
+2 bước biến đổi đó là:
+Tăng a[0] lên 1 đơn vị.
+Giảm a[2] xuống 1 đơn vị.
+Với a = [3,3,3,4], thì arrayEqual(a)=1.
+Giải thích:
+1 bước biến đổi đó là:
+Giảm a[3] xuống 1 đơn vị.
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Arrays: Integer: a
+1 ≤ s.size() ≤ 10^6.
+1 ≤ a[i] ≤ 10^3.
+
+[Đầu ra] Integer
+Một số nguyên là số bước biến đổi ít nhất để dãy a thành dãy bằng nhau.
+
+Link:
+https://codelearn.io/training/detail/531213
