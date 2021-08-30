@@ -1,0 +1,29 @@
+Hàm Rev(x) được xác định bằng cách đảo ngược thứ tự các chữ số trong x.
+
+Ví dụ Rev(12) = 21, Rev(50) = 5.
+
+Cho dãy số nguyên được xác định như sau:
+
+a[1] = 1.
+a[n]= Rev(a[n-1]) + 2.
+Cho số nguyên dương n, hãy xác định giá trị của a[n].
+
+Ví dụ:
+
+Với n = 3, thì islandArray(n) = 5
+Giải thích:
+a[1] = 1.
+a[2] = Rev(a[1]) + 2 = 1 + 2 = 3.
+a[3] = Rev(a[2]) + 2 = 3 + 2 = 5; 
+với n = 8, thì islandArray(n) = 33
+[Đầu vào/ Đầu ra]
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] integer: n
+1 ≤ n ≤ 10^18
+[Đầu ra] integer:
+In ra số thứ n tìm được
+
+Link:
+https://codelearn.io/training/detail/896155
