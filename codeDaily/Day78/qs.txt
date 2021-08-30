@@ -1,0 +1,14 @@
+Bình là một tân sinh viên mộng mơ về suất học bổng của trường đại học. Thế nhưng, Bình lại bị hành sấp mặt bởi bộ môn toán rời rạc. 
+Bình phải làm các bài tập xác định xem một biểu thức logic là hằng đúng hay hằng sai. Các bạn hãy giúp Bình giải quyết chúng nhé:
+
+Đề bài : Cho một chuỗi string clause đại điện cho một biểu thức logic(chỉ chứa 3 toán tử ^, v, !(and, or, not) và 3 biến mệnh đề
+p,q,t cùng với các dấu đóng mở ngoặc ()). Hãy xác định chuỗi string trên là hằng đúng hoặc hằng sai h,ay không phải hằng đúng/sai. 
+
+Đầu vào/ra:
+
+[Giới hạn thời gian] 0.5s với C++, 3s với Java & C#, 4s Python, GO và Js.
+[Đầu vào] string clause.
+[Đầu ra] int . 1 nếu là hằng đúng, -1 nếu là hằng sai, 0 nếu không phải hằng đúng cũng không phải hằng sai.
+
+Link:
+https://codelearn.io/training/detail/536861
