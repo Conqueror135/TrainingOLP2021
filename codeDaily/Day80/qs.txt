@@ -1,0 +1,37 @@
+Một điệp viên trưởng phụ trách một nước nọ trước khi về nước muốn gặp nhân viên của mình để nghe báo cáo. 
+Hai người đang ở hai thành phố khác nhau vì vậy họ phải di chuyển để gặp nhau. Quy tắc di chuyển như sau:
+
+Họ di chuyển vào ban ngày và nghỉ tại một thành phố vào buổi tối.
+Trong ngày, họ chỉ có thể di chuyển từ một thành phố tới thành phố bên cạnh (có đường đi trực tiếp và các đường đi này là 1 chiều).
+Để bảo đảm an toàn, các điệp viên luôn luôn di chuyển (không dừng tại một thành phố quá một đêm).
+Hai người có thể gặp nhau nếu họ ở cùng1 thành phố vào buổi tối.
+Mỗi thành phố không được đi qua quá t lần.
+Cho trước số thành phố là n, và 1 mảng 2 chiều chứa m đường đi (một chiều) nối trực tiếp các thành phố (các thành phố được đánh số từ 1 -> n), 
+và vị trị hiện tại p, q của 2 điệp viên.
+
+Hãy tìm ra số ngày ngắn nhất mà hai người có thể gặp nhau
+
+Example
+
+For n = 3, m = [[1, 2], [2, 3], [3, 1]], p = 1, q = 3, t = 10 the output should be agent(n, m, p, q, t)=-1. Do hai người không thể gặp nhau
+For n = 6, m = [[5, 6], [1, 2], [4, 5], [2, 3], [3, 4], [4, 1], [5, 4]], p = 1, q = 5, t = 2  the output should be agent(n, m, p, q, t)=3. 
+Cách đi có thể là: agent1: 1 -> 2 -> 3 -> 4, agent2: 5 -> 4 -> 5 -> 4 
+For n = 6, m = [[5, 6], [1, 2], [4, 5], [2, 3], [3, 4], [4, 1], [5, 4]], p = 1, q = 5, t = 1  the output should be agent(n, m, p, q, t)=-1. 
+Do ko có cách đi chỉ  qua mỗi thành phố tối đa 1 lần mà có thể gặp nhau  
+Input/Output
+
+[execution time limit] 1 seconds
+[input] int n
+[input] array.array.int m
+[input] int p, q, t
+Guaranteed constraints:
+1 ≤ n, p, q ≤ 50.
+1 ≤ m.length ≤ 100 and 1 ≤ m[i] ≤ n
+1 ≤ t ≤ 15
+[output] int
+Nếu 2 người không gặp nhau trả về -1
+
+Nếu 2 người gặp nhau in ra t là số ngày ngắn nhất mà hai người có thể gặp nhau.
+
+Link:
+https://codelearn.io/training/detail/7454
