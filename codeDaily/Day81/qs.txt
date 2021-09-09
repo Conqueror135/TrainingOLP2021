@@ -1,0 +1,29 @@
+Hải có một dãy số nguyên, Hải muốn sắp xếp các phần tử của dãy đó với các yêu cầu sau:
+
+Các số nguyên dương xuất hiện theo thứ tự tăng dần.
+Các số nguyên âm xuất hiện theo thự tự giảm dần.
+Không thay đổi vị trí của phần tử mang giá trị 0.
+Không thay đổi tính chất ở mỗi vị trí (Nghĩa là nếu trước khi sắp xếp vị trí i có giá trị nguyên âm 
+thì sau khi sắp xếp vị trị i cũng phải mang giá trị âm, nếu ví trị i mang giá trị dương cũng tương tự).
+Cho trước dãy a. Hãy sắp xếp theo cách của Hải.
+
+Ví dụ:
+
+Với a = [3,-1,2,0,-4,6] thì sortArray(a) = [2,-1,3,0,-4,6].
+Giải thích:
+các số nguyên dương xuất hiện theo thứ tự tăng dần 2,3,6.
+các số nguyên dương xuất hiện theo thứ tự giảm dần -1,-4.
+Với a = [0,7,0,5], thì sortArray(a) = [0,5,0,7].
+Đầu vào/Đầu ra:
+
+[Thời gian chạy] 0.5s với C++, 3s với Java và C#, 4s với Python, Go và JavaScript.
+
+[Đầu vào] Array: Integer a
+1 ≤ a.size() ≤ 10^5.
+-109 ≤ a[i] ≤ 10^9.
+
+[Đầu ra] Array: Integer
+Dãy đã được sắp xếp theo yêu cầu của Hải.
+
+Link:
+https://codelearn.io/training/detail/550656
